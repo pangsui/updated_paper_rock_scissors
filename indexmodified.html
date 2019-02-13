@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>PaperRockScissors</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />  
+</head>
+<body>
+    <main>
+        <div class="blinking" id="myDIV">
+         <h1 style="margin-left:380px;color: white;">Welcome to the Rock Paper Scissors game</h1>
+         <h1 style="padding:10px; margin-left:515px;color: whitesmoke;">Click on start to begin</h1><br><br><br><br>
+         <button class="blinking"onclick="view();" style="font-size:250%; background-color: magenta;padding:15px 32px; margin-left:580px">Start?</button> 
+        </div><br>
+    </main>
+    <div id="a" style="display: none">
+        <h1 style="color: whitesmoke; padding:10px; margin-left:300px;"></h1>
+        <h1 class="" style="color:black; padding:15px 32px; margin-left:200px">Click on either paper or rock or scissors to begin!</h1>
+        <br><br><br>
+        <button  onclick="game();" class="" style="background-color: magenta; font-size: 150%;padding:15px 32px; margin-left:200px">paper</button>
+        <button  onclick="game2();"class="" style="background-color: magenta ;font-size: 150%;padding:15px 32px; margin-left:200px">rock</button>
+        <button  onclick="game3();"class="" style="background-color: magenta; font-size: 150%;padding:15px 32px; margin-left:200px">scissors</button>
+        <button style="padding:15px;margin-right:1000px;margin-top:200px" class="active"  onclick="reloadPage();">Click Here to go back to start</button>
+    
+    <div id="container" class="blinking" style="background-color: magenta; font-size:150%;padding:15px; margin-left:600px">Result will be displayed here!</div>
+    </div>
+   <script src="main.js"></script>
+</body>
+</html>

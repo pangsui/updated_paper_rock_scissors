@@ -1,0 +1,24 @@
+
+body {
+    background-image: url("prc.jpg");
+  }
+  
+  .active:active {
+    color: red;
+  }
+  .focus:focus {
+    color: red;
+  }
+  :target {
+    color: red;
+  }
+  .blinking{
+    animation:blinkingText 4.1s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #000;    }
+    49%{    color: transparent; }
+    50%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #000;    }
+}
